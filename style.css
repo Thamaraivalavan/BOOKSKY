@@ -1,0 +1,123 @@
+body{
+    font-family: "Nunito", sans-serif;
+   
+}
+*{
+    margin:0;
+    padding:0;
+}
+.navbar
+{
+    padding: 20px;
+    background-color:#CC313D;
+}
+.container
+{
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.book
+{
+    background-color: #F7C5CC;
+    width: 25%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 4%;
+    border-radius: 15px;
+    display: inline-block;
+}
+.book h2{
+    color: #CC313D;
+}
+.book button
+{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #CC313D;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+.add-button{
+    background-color: #CC313D;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 100%;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.overlay
+{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    background-color: #F7C5CC;
+    top: 0;
+    opacity: 0.5;
+    display: block;
+    z-index: 1;
+    display: none;
+}
+.popupbox
+{
+    position: absolute;
+    background-color: #CC313D;
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.popupbox h2{
+    text-align: center;
+    color: #F7C5CC;
+    padding-bottom: 10px;
+}
+.popupbox input{
+    margin: 5px;
+    background: transparent;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    width:100%;
+}
+.popupbox textarea{
+    margin: 5px;
+    background: transparent;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border: 2px solid black;
+    width:100%;
+}
+.popupbox input::placeholder
+{
+    color: #F7C5CC;
+}
+.popupbox textarea::placeholder
+{
+    color: #F7C5CC;
+}
+.popupbox button{
+    background-color:#F7C5CC;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin: 5px;
+}
+.popupbox input:focus
+{
+    outline: none;
+    
+}
+.popupbox textarea:focus
+{
+    outline: none;
+    
+}
